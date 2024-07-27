@@ -32,8 +32,8 @@ pip install imageio
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Jevxtn/gif-creator.git
-cd gif-creator
+git clone https://github.com/Jevxtn/create-gif-py.git
+cd create-gif-py
 ```
 
 2. Add your images to the `images` directory.
@@ -41,7 +41,7 @@ cd gif-creator
 3. Run the script to generate a GIF:
 
 ```bash
-python create_gif.py
+python3 create_gif.py
 ```
 
 4. Your GIF will be saved in the `output` directory.
