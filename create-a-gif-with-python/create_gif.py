@@ -8,7 +8,7 @@ images = [ ] # 'images' The list containing the image data.
 for filename in filenames:
   images.append(iio.imread(filename))
 
-# 'guitar.gif' This is the name you want to give to your new GIF file
+# 'badge-icon.gif' This is the name you want to give to your new GIF file
 # 'duration = 500'  How long each picture should show in the GIF, in milliseconds.
 # 'loop = 0' How many times the GIF should repeat (0 means it keeps looping forever).
 #  The '.imwrite()' method to turn the images into a GIF
