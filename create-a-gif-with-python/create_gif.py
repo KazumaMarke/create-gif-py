@@ -2,7 +2,7 @@
 # Imageio is a Python library that provides an easy interface to read and write a wide range of image data.
 import imageio.v3 as iio
 
-filenames = ['badge_earth.png', 'badge_fork.png', 'badge_loop.png', 'badge_modules.png'] #  You can insert more than two PNG image files in the filenames list. Make sure that the pixel of pictures you will use are the same sizes.
+filenames = ['badge_earth.png', 'badge_fork.png', 'badge_loop.png', 'badge_modules.png'] #  You can insert more than two PNG image files in the filenames list. Make sure that the pixel of pictures you will use are all same sizes.
 images = [ ] # 'images' The list containing the image data.
 
 for filename in filenames:
